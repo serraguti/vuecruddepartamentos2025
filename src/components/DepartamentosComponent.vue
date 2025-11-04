@@ -26,7 +26,10 @@
                         :to="'/update/' + dept.numero">
                             Edit
                         </router-link>
-
+                        <router-link class="btn btn-danger"
+                        :to="'/delete/' + dept.numero">
+                            Delete
+                        </router-link>
                     </td>
                 </tr>
             </tbody>
